@@ -5,7 +5,7 @@ if (index.name === "Susan") {
 } else {
     console.log("Expected: Susan, Received: "+index.name)
 }
-
+var index = require("./index.js")
 
 
 if (index.height === 70) {
